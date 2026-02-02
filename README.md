@@ -1,6 +1,6 @@
 # Real-Time Auction Platform
 
-A local-only, real-time auction platform featuring live bidding, atomic bid processing, and synchronized countdown timers. Built to demonstrate race condition handling and websocket communication without the need for a database.
+A real-time auction platform featuring live bidding, atomic bid processing, and synchronized countdown timers. Built to demonstrate race condition handling and websocket communication without the need for a database.
 
 ## 🚀 Features
 
