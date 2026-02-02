@@ -175,7 +175,7 @@
 }
 
 .bid-input-group button {
-    padding: 10px 20px;
+    padding: 10px 16px;
     background: #2196f3;
     color: white;
     border: none;
@@ -185,6 +185,16 @@
     cursor: pointer;
     transition: background 0.2s;
     white-space: nowrap;
+}
+
+.bid-input-group .quick-bid-btn {
+    background: #4caf50;
+    /* Green for quick action */
+    margin-right: 4px;
+}
+
+.bid-input-group .quick-bid-btn:hover:not(:disabled) {
+    background: #388e3c;
 }
 
 .bid-input-group button:hover:not(:disabled) {

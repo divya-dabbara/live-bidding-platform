@@ -31,7 +31,7 @@ const auctionItems = [
     image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400",
     currentBid: 150,
     minimumIncrement: 10,
-    endTime: Date.now() + 180000, // 3 minutes from server start
+    endTime: Date.now() + 900000, // 15 minutes
     highestBidder: null,
     bidHistory: []
   },
@@ -42,7 +42,7 @@ const auctionItems = [
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
     currentBid: 500,
     minimumIncrement: 25,
-    endTime: Date.now() + 240000, // 4 minutes from server start
+    endTime: Date.now() + 1200000, // 20 minutes
     highestBidder: null,
     bidHistory: []
   },
@@ -53,7 +53,7 @@ const auctionItems = [
     image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400",
     currentBid: 200,
     minimumIncrement: 15,
-    endTime: Date.now() + 300000, // 5 minutes from server start
+    endTime: Date.now() + 1500000, // 25 minutes
     highestBidder: null,
     bidHistory: []
   },
@@ -64,7 +64,7 @@ const auctionItems = [
     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",
     currentBid: 80,
     minimumIncrement: 5,
-    endTime: Date.now() + 360000, // 6 minutes from server start
+    endTime: Date.now() + 1800000, // 30 minutes
     highestBidder: null,
     bidHistory: []
   }

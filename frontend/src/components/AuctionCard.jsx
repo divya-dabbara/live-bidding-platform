@@ -126,6 +126,14 @@ function AuctionCard({ auction, serverTime, onPlaceBid, currentBidder }) {
                             min={auction.currentBid + auction.minimumIncrement}
                             disabled={isEnded}
                         />
+                        <button
+                            type="button"
+                            className="quick-bid-btn"
+                            disabled={isEnded}
+                            onClick={() => onPlaceBid(auction.id, auction.currentBid + 10)}
+                        >
+                            +$10
+                        </button>
                         <button type="submit" disabled={isEnded || !bidAmount}>
                             {isEnded ? 'Auction Ended' : 'Place Bid'}
                         </button>
