@@ -81,7 +81,7 @@ function App() {
       </header>
 
       <div className="bidder-section">
-        <label htmlFor="bidder-name">Your Name (optional):</label>
+        <label htmlFor="bidder-name">Your Name:</label>
         <input
           id="bidder-name"
           type="text"
