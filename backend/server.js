@@ -41,7 +41,7 @@ const auctionItems = [
     description: "Luxury timepiece with leather strap",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
     currentBid: 500,
-    minimumIncrement: 25,
+    minimumIncrement: 10,
     endTime: Date.now() + 1200000, // 20 minutes
     highestBidder: null,
     bidHistory: []
@@ -52,7 +52,7 @@ const auctionItems = [
     description: "First edition classics in pristine condition",
     image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400",
     currentBid: 200,
-    minimumIncrement: 15,
+    minimumIncrement: 10,
     endTime: Date.now() + 1500000, // 25 minutes
     highestBidder: null,
     bidHistory: []
