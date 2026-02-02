@@ -82,6 +82,14 @@ app.get('/api/auctions', (req, res) => {
   });
 });
 
+// Alias endpoint for items (same as auctions)
+app.get('/api/items', (req, res) => {
+  res.json({
+    serverTime: Date.now(),
+    auctions: auctionItems
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: Date.now() });
