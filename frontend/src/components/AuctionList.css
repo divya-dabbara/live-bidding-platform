@@ -1,0 +1,21 @@
+.auction-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.auction-list-empty {
+  text-align: center;
+  padding: 48px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .auction-list {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+}

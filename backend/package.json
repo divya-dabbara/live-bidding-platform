@@ -1,0 +1,17 @@
+{
+  "name": "auction-backend",
+  "version": "1.0.0",
+  "description": "Real-time auction platform backend with Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["auction", "socket.io", "real-time"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5"
+  }
+}
